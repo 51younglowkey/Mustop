@@ -1,0 +1,5 @@
+build/
+dist/
+.DS_Store
+# 本地对话导出，含个人路径，不公开
+docs/origin-conversation.md

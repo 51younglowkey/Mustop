@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="440" viewBox="0 0 560 440">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5EE7DF"/><stop offset="1" stop-color="#4A6CF7"/></linearGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0B1A5C" flood-opacity="0.35"/></filter>
+  <clipPath id="clip"><rect width="560" height="440" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+  <rect width="560" height="440" fill="url(#wall)"/>
+  <!-- menu bar -->
+  <rect y="0" width="560" height="34" rx="0" fill="#FFFFFF" fill-opacity=".55"/>
+  <g font-family="-apple-system,'SF Pro Text','PingFang SC',Helvetica,Arial,sans-serif" font-size="14" fill="#1d1d1f">
+    <rect x="326" y="5" width="86" height="24" rx="6" fill="#1d1d1f" fill-opacity=".12"/>
+    <text x="336" y="22" font-weight="600">☾ᶻ  29:58</text>
+    <text x="430" y="22" opacity=".7">Mon 23:31</text>
+  </g>
+  <!-- dropdown -->
+  <g transform="translate(206 42)" filter="url(#sh)">
+    <rect width="260" height="370" rx="12" fill="#F6F6F8" fill-opacity=".97" stroke="#000" stroke-opacity=".08"/>
+    <g font-family="-apple-system,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif" font-size="15" fill="#1d1d1f">
+      <text x="18" y="32" fill="#8e8e93">将在 00:01 暂停网易云</text>
+      <text x="18" y="62">取消定时</text>
+      <line x1="12" y1="78" x2="248" y2="78" stroke="#000" stroke-opacity=".1"/>
+      <text x="18" y="102" fill="#8e8e93">改为…</text>
+      <text x="18" y="132">15 分钟</text>
+      <rect x="6" y="143" width="248" height="28" rx="6" fill="#4A6CF7"/>
+      <text x="18" y="162" fill="#fff">30 分钟</text>
+      <text x="18" y="192">45 分钟</text>
+      <text x="18" y="222">1 小时</text>
+      <text x="18" y="252">1.5 小时</text>
+      <text x="18" y="282">自定义…</text>
+      <line x1="12" y1="298" x2="248" y2="298" stroke="#000" stroke-opacity=".1"/>
+      <text x="18" y="322">✓  开机自动启动</text>
+      <text x="18" y="352">退出</text>
+    </g>
+  </g>
+  </g>
+</svg>
